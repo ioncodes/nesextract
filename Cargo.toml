@@ -1,0 +1,8 @@
+[package]
+name = "nesextract"
+version = "0.1.0"
+authors = ["Luca Marcelli <ionix@protonmail.com>"]
+
+[dependencies]
+bytereader = "0.1.0"
+bmp = "*"

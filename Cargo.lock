@@ -1,0 +1,30 @@
+[root]
+name = "nesextract"
+version = "0.1.0"
+dependencies = [
+ "bmp 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "bytereader 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "bmp"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "byteorder 0.5.3 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "byteorder"
+version = "0.5.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "bytereader"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[metadata]
+"checksum bmp 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "4d80e84ddcb3b15241f1a1ca0e6d7241b15fe92f7f898cb846dc10b1f1639a76"
+"checksum byteorder 0.5.3 (registry+https://github.com/rust-lang/crates.io-index)" = "0fc10e8cc6b2580fda3f36eb6dc5316657f812a3df879a44a66fc9f0fdbc4855"
+"checksum bytereader 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "ef1a1507ef3748664d7290100ac987d416cad84b6644a0777987a0368595a48a"
